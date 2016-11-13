@@ -10,6 +10,7 @@ public class Solution {
 			@SuppressWarnings("resource")
 			Scanner in = new Scanner(System.in);
 			int n = in.nextInt();
+                        in.close();
 			// String s=???; Complete this line below
 
 			String s = String.valueOf(n);
